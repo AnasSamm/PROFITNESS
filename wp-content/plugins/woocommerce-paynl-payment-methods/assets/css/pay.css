@@ -1,0 +1,37 @@
+#paynl_payment_methods-description ul {
+    width: 100%;
+}
+
+#paynl_payment_methods-description ul li {
+    display: inline-block;
+    width: 295px;
+    margin-right: 5px;
+}
+
+#paynl_payment_methods-description ul li a {
+    width: 100%;
+    display: inline-block;
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+#paynl_payment_methods-description ul li a .enabled {
+    margin-left: 5px;
+    color: #10723a;
+    font-weight: bold;
+}
+
+#paynl_payment_methods-description ul li a:hover {
+    color: #272fcf;
+    background: #00000012;
+}
+
+#paynl_payment_methods-description img {
+    position: relative;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.woocommerce table.form-table select.multiselect.countryLimit {
+    height: 190px;
+}
