@@ -1,0 +1,321 @@
+2023-05-09T20:48:08+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: f262f23f747d4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:48:09+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: e34aa1782a29e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:48:10+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: 7aef66ea12f64
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:48:11+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: 77d7ed717aa28
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:48:41+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: 24f9c4d6db3f9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:48:43+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: 1a64e8963743
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:48:43+00:00 INFO Webhooks deleted.
+2023-05-09T20:48:43+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/localhost\/anoos\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.CREDIT-CARD.CREATED"},{"name":"PAYMENT.CAPTURE.PENDING"}]}
+Response Debug ID: eb7d01a779dd5
+Response: Array
+(
+    [code] => 400
+    [message] => Bad Request
+)
+
+Response Body: {"name":"VALIDATION_ERROR","message":"Invalid data provided","debug_id":"eb7d01a779dd5","information_link":"https://developer.paypal.com/docs/api/webhooks/#errors","details":[{"field":"url","location":"body","issue":"Not a valid webhook URL"}],"links":[]}
+
+2023-05-09T20:48:43+00:00 ERROR Failed to subscribe webhooks: [VALIDATION_ERROR] Invalid data provided
+2023-05-09T20:48:44+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: 5517603062393
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:49:22+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: 5d16d1e61062f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:49:24+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: 42ed9883ea851
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:49:24+00:00 INFO Webhooks deleted.
+2023-05-09T20:49:25+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/localhost\/anoos\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.CREDIT-CARD.CREATED"},{"name":"PAYMENT.CAPTURE.PENDING"}]}
+Response Debug ID: 7552065bbf95a
+Response: Array
+(
+    [code] => 400
+    [message] => Bad Request
+)
+
+Response Body: {"name":"VALIDATION_ERROR","message":"Invalid data provided","debug_id":"7552065bbf95a","information_link":"https://developer.paypal.com/docs/api/webhooks/#errors","details":[{"field":"url","location":"body","issue":"Not a valid webhook URL"}],"links":[]}
+
+2023-05-09T20:49:25+00:00 ERROR Failed to subscribe webhooks: [VALIDATION_ERROR] Invalid data provided
+2023-05-09T20:49:26+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: d797d952c76af
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:49:28+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: 5b4511bdcdee4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:49:29+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: 9d7d3a3693ebb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:49:31+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: e8822e27dadc8
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:50:33+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: e2ff4cc17fe13
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:50:36+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: 70402fe5946b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:50:37+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: b56f63192fc9c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:51:03+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cbbafd-1"}
+Response Debug ID: bc02c4771979e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:51:51+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: 7b459eced2282
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:51:52+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: 9387c8877924c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:51:52+00:00 INFO Webhooks deleted.
+2023-05-09T20:51:53+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/localhost\/anoos\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.CREDIT-CARD.CREATED"},{"name":"PAYMENT.CAPTURE.PENDING"}]}
+Response Debug ID: 1140c63124dc
+Response: Array
+(
+    [code] => 400
+    [message] => Bad Request
+)
+
+Response Body: {"name":"VALIDATION_ERROR","message":"Invalid data provided","debug_id":"1140c63124dc","information_link":"https://developer.paypal.com/docs/api/webhooks/#errors","details":[{"field":"url","location":"body","issue":"Not a valid webhook URL"}],"links":[]}
+
+2023-05-09T20:51:53+00:00 ERROR Failed to subscribe webhooks: [VALIDATION_ERROR] Invalid data provided
+2023-05-09T20:51:54+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: 5ac0ee79ce21e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:52:11+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 3ea2019c024c4
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:52:14+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: d7d4f7e95b31
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:52:15+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: af33cd63dfac9
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:53:40+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: c8574eeb73e18
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:53:42+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: 77f018144c0d0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:53:44+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: e8607bf0a41a3
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:53:57+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cbbafd-1"}
+Response Debug ID: 8a73648264506
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:54:45+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 643f14152256f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:54:46+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: 856f8b9d4a6f3
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:54:47+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/WWDFNRXSLW7AQ
+Response Debug ID: a8c2f51c1cb70
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-05-09T20:54:58+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/identity/generate-token
+Request Body: {"customer_id":"cbbafd-1"}
+Response Debug ID: c9412f1423cef
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+

@@ -1,2 +1,15 @@
 2023-05-09T10:25:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\anoos\wp-includes\l10n.php on line 1428
 
+2023-05-09T20:37:41+00:00 CRITICAL Uncaught TypeError: array_reduce(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\anoos\wp-content\plugins\woocommerce\src\Internal\Utilities\BlocksUtil.php:49
+Stack trace:
+#0 C:\xampp\htdocs\anoos\wp-content\plugins\woocommerce\src\Internal\Utilities\BlocksUtil.php(49): array_reduce('', Object(Closure), Array)
+#1 C:\xampp\htdocs\anoos\wp-content\plugins\woocommerce\includes\class-wc-tracker.php(859): Automattic\WooCommerce\Internal\Utilities\BlocksUtil::get_blocks_from_widget_area('woocommerce/min...')
+#2 C:\xampp\htdocs\anoos\wp-content\plugins\woocommerce\includes\class-wc-tracker.php(172): WC_Tracker::get_mini_cart_info()
+#3 C:\xampp\htdocs\anoos\wp-content\plugins\woocommerce\includes\class-wc-tracker.php(65): WC_Tracker::get_tracking_data()
+#4 C:\xampp\htdocs\anoos\wp-includes\class-wp-hook.php(308): WC_Tracker::send_tracking_data()
+#5 C:\xampp\htdocs\anoos\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\anoos\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\anoos\wp-cron.php(188): do_action_ref_array('woocommerce_tra...', Array)
+#8 {main}
+  thrown in C:\xampp\htdocs\anoos\wp-content\plugins\woocommerce\src\Internal\Utilities\BlocksUtil.php on line 49
+
